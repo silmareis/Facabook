@@ -1,0 +1,156 @@
+
+body {
+    background: #EEEEEE;
+    
+    }
+    
+    .titulo {
+      font-family: 'Righteous', cursive;
+      font-size: 35px;
+      color: #fff;
+    }
+    
+    .titulo2 {
+      font-family: 'Righteous', cursive;
+      font-size: 22px;
+      color: #333333;
+      padding: 0 0 10px 10px;
+    }
+    
+    .texto {
+     color: #333333 
+     font-size: 25px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: bold;
+    }
+    
+    .subtitulo {
+      color: #FFFFFF;
+      font-size: 16px;
+    } 
+    
+    
+    /**--------------------TOPO-------------*/
+    
+    .topo {
+      height: 80px;
+      width: 100%;
+      background: #CF2B2B;
+      color: white;
+      padding-left: 20px;
+      position: fixed; 
+      top: 0px;
+      left: 0px;
+      padding-top: 10px;
+      z-index: 1;
+        box-shadow: 4px 4px 5px rgba(50, 50, 50, 0.3);
+    }
+    
+    
+    /**--------------------CONTEUDO-------------*/
+    
+    main {
+      margin-top: 100px;
+      margin-bottom: 140px;
+    }
+    
+    section {
+      margin-bottom: 20px;
+    }
+      
+    ul {
+      display: flex;
+      list-style: none;
+      overflow: hidden;
+    }
+    
+    li {
+      height: 180px;
+      width: 130px;
+      background: white;
+      border-radius: 5%;
+      flex-shrink: 0;
+        box-shadow: 5px 7px 3px rgba(50, 50, 50, 0.1);
+      margin-left: 10px;
+      padding-left: 10px;
+     
+    
+    }
+    
+    .imagem {
+      width: 85%;
+      margin-top: 12px;
+      margin-left: 3px;
+      border-radius: 5%;
+    }
+    
+    .imagem-bebida {
+      width: 95%;
+      height: 80px;
+      margin-top: 12px;
+      margin-left: 3px;
+      margin-bottom: 5px;
+      border-radius: 5%;
+      text-align: center;
+    }
+    .cima {
+      margin-top: 5px;
+      margin-bottom: 10px; 
+    }
+      
+    
+    .meio {
+      font-size: 12px;
+      color: rgba(20, 20, 20, 0.5);
+    }
+    
+    .fundo {
+      margin-top: 10px;
+      font-size: 15px;
+    }
+    .icone-geral {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .icone {
+      color: #32B72F;
+      font-weight: bold;
+      font-size: 25px;
+      padding: 10px;
+      display: none;
+    }
+    
+    /**--------------------FUNDO-------------*/
+    
+    footer {
+      height: 100px;
+      width: 100%;
+      background: #ffffff;
+      position: fixed; 
+      bottom: 0px;
+      left: 0px;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .button {
+      color: #FFF;
+      background:#CBCBCB;
+      border: none;
+      height: 50px;
+      width: 90vw;
+      padding: 5px 45px;
+      border-radius: 30px;
+      text-align: center;
+      margin: 10px 10px 0 10px;
+      font-size: 20px;
+    }
+    
+    #link {
+      display: none;
+    }
+    
+    .selecionado {
+      border: 3px solid #32B72F;
+    }

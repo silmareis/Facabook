@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <title>Quem é esse Pokémon?</title>
+    </head>
+    <body>
+      <div id="app">
+        <h1>Quem é esse Pokémon?</h1>
+        <div class="campos-pesquisa">
+          <div class="campo">
+            <label for="nome">Nome do Pokemon</label>
+            <input type="text" id="nome" placeholder="Digite o nome do pokemon" />
+          </div>
+          <button onclick="obterPokemon()">Obter Pokémon!</button>
+        </div>
+        <div class="resultado"></div>
+      </div>
+
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="js/index.js"></script>
+      <script src="node_modules/axios/dist/axios.min.js"></script>
+    </body>
+</html>
